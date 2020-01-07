@@ -1,0 +1,66 @@
+.myslidefade{
+ position: relative;
+}
+.centertext{
+    display: block;
+    color: black ;
+    position: absolute;
+    right: 20px;
+    left: 20px;
+    top: 250px;
+    text-align:center;
+    font-size: large;
+}
+#ipc-button{
+    color: #fff;
+    border-color: #052d54;
+    background: #052d54;
+    border-radius: 6px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 22px;
+    line-height: 30px;
+    border-bottom-width: 2px;
+    padding: .5em 1.5em .55em;
+    text-decoration:none ;
+}
+.ipc-headline{
+ padding-top: 450px;
+ padding-left: 650px;
+}
+.x-login , .x-start , .x-word, .x-price{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 12px 11px;
+    color: #fff;
+    text-decoration: none;
+}
+.x-button{
+    background-color:#028cb0 ;
+    color:#fff;
+    border-color:#028cb0 ;
+    border: 1px solid transparent;
+}
+.product-sub-div {
+    display: none;
+}
+
+.product:hover ~ .product-sub-div{
+    display: block;
+}
+
+.right-masterbar , .left-masterbar{
+    position: relative;
+    display: flex;
+    padding: 0px;
+    list-style: none;
+    flex-grow: 1;
+}
+.side-image{
+    background-image: url('../src/v1-headline-image-1.jpg');
+    height:18.75rem;
+    width: 18.75rem;
+    background-repeat:no-repeat;
+    background-size: contain;
+    transform: rotate(340deg) skew(40deg);
+}
